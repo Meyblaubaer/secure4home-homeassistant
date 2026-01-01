@@ -1,8 +1,12 @@
 # Secure4Home HomeAssistant Integration
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
+[![GitHub release](https://img.shields.io/github/release/Meyblaubaer/secure4home-homeassistant.svg)](https://github.com/Meyblaubaer/secure4home-homeassistant/releases)
+[![License](https://img.shields.io/github/license/Meyblaubaer/secure4home-homeassistant.svg)](LICENSE)
 
 HomeAssistant Custom Integration für Secure4Home / Blaupunkt Alarmanlagen.
+
+> **Topics**: `homeassistant` `home-automation` `secure4home` `blaupunkt` `alarm-system` `hacs` `custom-integration` `smart-home` `home-assistant-component`
 
 ## Features
 
