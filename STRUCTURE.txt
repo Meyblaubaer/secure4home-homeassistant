@@ -1,0 +1,63 @@
+secure4home-homeassistant-repo/
+├── .github/
+│   └── workflows/
+│       └── validate.yml              # GitHub Actions für HACS/Hassfest Validation
+├── custom_components/
+│   └── secure4home/
+│       ├── __init__.py               # Integration Setup & DataUpdateCoordinator
+│       ├── alarm_control_panel.py   # Alarm Control Panel Entity
+│       ├── api.py                    # Secure4Home API Client
+│       ├── binary_sensor.py          # Binary Sensors (Tamper, AC Power, Battery)
+│       ├── config_flow.py            # Config Flow für UI-Setup
+│       ├── const.py                  # Konstanten
+│       ├── manifest.json             # Integration Manifest
+│       ├── sensor.py                 # Sensors (Signal Strength, GSM)
+│       └── strings.json              # UI Strings
+├── .gitignore                        # Git Ignore Rules
+├── .pre-commit-config.yaml           # Pre-commit Hooks (Black, Pylint)
+├── CHANGELOG.md                      # Version History
+├── CONTRIBUTING.md                   # Contributor Guidelines
+├── hacs.json                         # HACS Integration Metadata
+├── INSTALLATION.md                   # Ausführliche Installationsanleitung
+├── LICENSE                           # MIT License
+├── README.md                         # Haupt-Dokumentation
+├── requirements_dev.txt              # Development Dependencies
+├── STRUCTURE.txt                     # Diese Datei - Repository Struktur
+├── test_api_standalone.py            # Standalone API Test Script
+└── UPLOAD_TO_GITHUB.md               # GitHub Upload Anleitung
+
+Wichtige Dateien:
+
+custom_components/secure4home/
+├── __init__.py                       # Entry Point, erstellt Coordinator
+├── api.py                            # API Client mit Login, get_panel_mode, etc.
+├── alarm_control_panel.py           # ARM_AWAY, ARM_HOME, DISARM
+├── binary_sensor.py                  # Tamper, AC Power, Battery Sensors
+├── sensor.py                         # RSSI, GSM Signal Sensors
+├── config_flow.py                    # UI Config Flow
+├── const.py                          # DOMAIN, MODE_ARM, MODE_DISARM, MODE_HOME
+├── manifest.json                     # Version, Requirements, Domains
+└── strings.json                      # UI Texte (EN)
+
+Dokumentation:
+├── README.md                         # Übersicht, Features, Verwendung
+├── INSTALLATION.md                   # 4 Installations-Methoden erklärt
+├── CONTRIBUTING.md                   # Für Entwickler & Contributors
+├── CHANGELOG.md                      # v1.0.0 Release Notes
+└── UPLOAD_TO_GITHUB.md               # Step-by-Step GitHub Upload
+
+Testing & Development:
+├── test_api_standalone.py            # Standalone API Tester (kein HA required)
+├── requirements_dev.txt              # Black, Pylint, MyPy, etc.
+└── .pre-commit-config.yaml           # Code Quality Hooks
+
+GitHub Integration:
+├── .github/workflows/validate.yml    # HACS + Hassfest Validation
+├── hacs.json                         # HACS Metadata
+└── .gitignore                        # Ignore __pycache__, logs, secrets
+
+Nächste Schritte:
+1. Ersetze "DEIN-USERNAME" in allen Markdown-Dateien mit deinem GitHub Username
+2. Folge UPLOAD_TO_GITHUB.md für den Upload
+3. Erstelle ein v1.0.0 Release auf GitHub
+4. Teile die Repository-URL mit anderen Benutzern

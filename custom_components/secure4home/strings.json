@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Secure4Home Setup",
+        "description": "Gib deine Secure4Home Zugangsdaten ein",
+        "data": {
+          "username": "Benutzername",
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung fehlgeschlagen. Bitte überprüfe deine Zugangsdaten."
+    },
+    "abort": {
+      "already_configured": "Dieses Konto ist bereits konfiguriert"
+    }
+  }
+}
