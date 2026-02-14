@@ -4,9 +4,9 @@
   "codeowners": [],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/yourusername/secure4home",
+  "documentation": "https://github.com/Meyblaubaer/secure4home",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/yourusername/secure4home/issues",
+  "issue_tracker": "https://github.com/Meyblaubaer/secure4home/issues",
   "requirements": ["aiohttp>=3.8.0"],
   "version": "0.1.0"
 }
